@@ -5,7 +5,7 @@ const apple = new Apple
 addEventListener('keydown',keyPressed)                      
 
 window.onload = () =>{
-    setInterval(gameLoop, 1000/15);
+    setInterval(gameLoop, 1000/2);
 }
 
 function gameLoop(){
@@ -55,28 +55,28 @@ function eatApple(){
 //EVENTO PARA MOVIMENTACÃO DA COBRA
 function keyPressed(e){
     switch(String(e.key).toLocaleLowerCase()){
-        case 'a',"arrowleft":
+        case "arrowleft":
             if(snake.vx == snake.vel){
                 break
             }
             snake.vx = -snake.vel
             snake.vy = 0
             break
-        case 'w','arrowup':
+        case 'arrowup':
             if(snake.vy == snake.vel){
                 break
             }
             snake.vx = 0
             snake.vy = -snake.vel
             break
-        case 'd','arrowright':
+        case 'arrowright':
             if(snake.vx == -snake.vel){
                 break
             }
             snake.vx = snake.vel
             snake.vy = 0   
             break
-        case 's','arrowdown':
+        case 'arrowdown':
             if(snake.vy == -snake.vel){
                 break
             }
