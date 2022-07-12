@@ -5,7 +5,7 @@ const apple = new Apple
 addEventListener('keydown',keyPressed)                      
 
 window.onload = () =>{
-    setInterval(gameLoop, 1000/2);
+    setInterval(gameLoop, 1000/15);
 }
 
 function gameLoop(){
