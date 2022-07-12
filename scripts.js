@@ -46,11 +46,10 @@ class Snake{
                 this.vx = this.vy = 0
                 score = 0
                 this.tail = 3
-                alert('FIM DE JOGO')
             }
         }
     }
-    
+    alert('FIM DE JOGO')
 }
 
 class Apple{
