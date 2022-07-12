@@ -45,7 +45,8 @@ class Snake{
             if(this.trail[i].x == this.x && this.trail[i].y == this.y){
                 this.vx = this.vy = 0
                 score = 0
-                this.tail = 3      
+                this.tail = 3
+                alert('FIM DE JOGO')
                 break
             }
         }
