@@ -47,7 +47,6 @@ class Snake{
                 score = 0
                 this.tail = 3
                 alert('FIM DE JOGO')
-                break
             }
         }
     }
