@@ -5,6 +5,7 @@ const apple = new Apple
 addEventListener('keydown',keyPressed)                      
 
 window.onload = () =>{
+    alert("Use as setas para movimentar")
     setInterval(gameLoop, 1000/15);
 }
 
