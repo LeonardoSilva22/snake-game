@@ -49,7 +49,6 @@ class Snake{
             }
         }
     }
-    alert('FIM DE JOGO')
 }
 
 class Apple{
